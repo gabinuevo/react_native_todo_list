@@ -5,19 +5,19 @@ import Main from './app/components/Main';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <View>
+    // <View style={styles.container}>
+    //   <View>
         <Main />
-      </View>
-    </View>
+      // </View>
+    // </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// const styles = StyleSheet.create({
+//   container: {
+//     // flex: 1,
+//     // backgroundColor: '#fff',
+//     // alignItems: 'center',
+//     // justifyContent: 'center',
+//   },
+// });

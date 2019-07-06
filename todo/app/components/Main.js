@@ -19,7 +19,9 @@ export default class Main extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.headerText}> RANDOM TEXT </Text>
+          <Text style={styles.headerText}>
+            RANDOM TEXT
+          </Text>
         </View>
         <ScrollView style={styles.scrollContainer}>
 
@@ -40,14 +42,18 @@ export default class Main extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    // marginBottom: 30,
+    // flexDirection: 'column',
+    // alignItems: 'stretch', 
     // backgroundColor: '#fff',
     // alignItems: 'center',
     // justifyContent: 'center',
     // color: 'red',
   },
   header: {
+    flex: 1,
     backgroundColor: '#E91E63',
-    alignItems: 'center',
+    // alignSelf: 'center',
     justifyContent: 'center',
     borderBottomWidth: 10,
     borderBottomColor: '#ddd',
@@ -64,16 +70,16 @@ const styles = StyleSheet.create({
   footer: {
     position: 'absolute',
     bottom: 0,
-    left: 0, 
+    left: 0,
     right: 0,
     zIndex: 10,
   },
   textInput: {
     alignSelf: 'stretch',
     color: '#fff',
-    padding: 10, 
+    padding: 20,
     backgroundColor: '#252525',
-    borderTopWidth: 2, 
+    borderTopWidth: 2,
     borderTopColor: '#ededed'
   },
 });
